@@ -1,4 +1,4 @@
-# Serverpod Admin
+# Serverpod Admin Panel
 
 <img src="https://serverpod.dev/assets/img/serverpod-logo-inverted.svg">
 

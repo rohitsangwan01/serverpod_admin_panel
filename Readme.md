@@ -32,4 +32,5 @@ That's it, finally run `node index.js`
 ## Note
 
 Using [AdminJs](https://adminjs.co/) for admin panel components
+
 This is Just The Initial Version, feel free to Contribute or Report any Bug!

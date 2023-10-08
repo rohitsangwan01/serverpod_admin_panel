@@ -1,0 +1,25 @@
+{
+    "admin_login": {
+        "email": "admin@gmail.com",
+        "password": "password123"
+    },
+    "db_config": {
+        "host": "localhost",
+        "port": 8090,
+        "user": "postgres",
+        "password": "pOFTCtQQ-zfV_j-7cR-UhUCAuddn_LhL",
+        "database": "serverpod_todo_app"
+    },
+    "base_config": {
+        "show_all_tables": true,
+        "show_log_tables": false,
+        "table_title": "Serverpod Tables"
+    },
+    "tables": [],
+    "log_tables": [
+        "serverpod_log",
+        "serverpod_session_log",
+        "serverpod_query_log",
+        "serverpod_message_log"
+    ]
+}

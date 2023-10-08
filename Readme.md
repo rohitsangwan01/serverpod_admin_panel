@@ -12,6 +12,8 @@ Enter Database connection configurations in `config/default.json` file and make 
 
 That's it, finally run `node index.js`
 
+Checkout on [Youtube](https://youtu.be/2GDenxG5-3Q?si=oaHU8_gWxVk1EAZZ)
+
 ## Screenshots
 
 ### Login 

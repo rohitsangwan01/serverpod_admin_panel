@@ -8,11 +8,22 @@ Ready to use admin panel for [Serverpod](https://serverpod.dev/)
 
 Make sure [Node](https://nodejs.org/en) is installed, and install dependencies using , `yarn install`
 
-Enter Database connection configurations in `config/default.json` file and make sure datbase is active
+Enter Database connection configurations in `config/default.json` file and make sure database is active
 
 That's it, finally run `node index.js`
 
 Checkout on [Youtube](https://youtu.be/2GDenxG5-3Q?si=oaHU8_gWxVk1EAZZ)
+
+
+## Docker
+
+Make sure docker is running, and `config/default.json` file is configured, if postgres is running on your local machine, then instead of `localhost` use `host.docker.internal` for database host
+
+Run command: `docker build . -t serverpod_admin`
+
+And finally run: `docker run -p 3000:3000 -d serverpod_admin`, and open `localhost:3000` in browser
+
+To  check/get container id: `docker ps` and to kill server: `docker kill CONTAINER_ID`
 
 ## Screenshots
 
